@@ -1,8 +1,10 @@
 "# TPI_Programmer" 
 
+Project is based on http://junkplusarduino.blogspot.jp/p/attiny10-resources.html. I tried to find a way to contact them for my updates, but could not find their contact info.
+
 TPI programmer for ATtiny4/5/9/10/20/40
 
-Make the connections as shown below.
+Make the connections as shown here http://junkplusarduino.blogspot.jp/p/attiny10-resources.html.
 
 To use:
 ***** Buad rate must be set to 9600 ****
@@ -23,24 +25,5 @@ T = Toggle +12v enabled by High, or Low
 R/r = Quick reset
 
 - Finally, power off the arduino and remove the Attiny10/20/40
-
-Arduino                 ATtiny10              
-----------+          +----------------        
-(SS#)  10 |--[R]-----| 6 (RESET#/PB3)       
-          |          |                 
-(MOSI) 11 |--[R]--+--| 1 (TPIDATA/PB0)        
-          |       |  |                        
-(MISO) 12 |--[R]--+  |                        
-          |          |                        
-(SCK)  13 |--[R]-----| 3 (TPICLK/PB1)      
-    	  |          |
-(HVP)   9 |----------| 6 (RESET#/PB3)         
-          |          |                        
-                                              
--[R]-  =  a 220 - 1K Ohm resistor            
-this picture : 2011/12/08 by pcm1723         
-modified :2015/02/27 by KD                                                    
-
-thanks to pcm1723 for tpitest.pde upon which  
-
-this is based                                 
+                                                                                      
+thanks to pcm1723 for tpitest.pde upon which this is based                                 
