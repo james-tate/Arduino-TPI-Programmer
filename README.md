@@ -2,7 +2,7 @@
 
 Project is based on http://junkplusarduino.blogspot.jp/p/attiny10-resources.html. I tried to find a way to contact them for my updates, but could not find their contact info.
 
-TPI programmer for ATtiny4/5/9/10/20/40
+TPI programmer for ATtiny4/5/9/10/20/40/102/104
 
 Make the connections as shown here http://junkplusarduino.blogspot.jp/p/attiny10-resources.html.
 
