@@ -63,6 +63,8 @@
  * this is based                                  *
  **************************************************
  Updates:
+   Dec 04, 2017: thejamestate@gmail.com
+   		* Added support for ATtiny102 and ATtiny104
    Jan 23, 2017: Ksdsksd@gmail.com
                 * Thanks to InoueTaichi Fixed incorrect #define Tiny40 
                 
